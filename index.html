@@ -2,60 +2,74 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <!-- navbar -->
-    <div class="container">
-        <div class="logo"><img src="assets/Logo.png" alt="logo"></div>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">SPEAKERS</a>
-            <a href="#">SCHEDULE</a>
-            <a href="#">CONTACT US</a>
-        </nav>
-        <button class="btn1">GET TICKETS</button>
-    </div>
-    <div class="text">
-        <h1>The Best Experience Of <br> <span class="red">Music</span> In 2021</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula placerat, eleifend ex non,
-            vehicula libero. Suspendisse eget tellus lectus.</p>
 
-        <div class="buttons-container">
-            <button class="btn2">Get Started</button>
-            <div class="watch">
-                <button class="btn3"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M24.0001 47.3333C11.1131 47.3333 0.666748 36.887 0.666748 24C0.666748 11.113 11.1131 0.666626 24.0001 0.666626C36.8871 0.666626 47.3334 11.113 47.3334 24C47.3334 36.887 36.8871 47.3333 24.0001 47.3333ZM24.0001 42.6666C28.9508 42.6666 33.6987 40.7 37.1994 37.1993C40.7001 33.6986 42.6668 28.9507 42.6668 24C42.6668 19.0493 40.7001 14.3013 37.1994 10.8006C33.6987 7.29995 28.9508 5.33329 24.0001 5.33329C19.0494 5.33329 14.3014 7.29995 10.8008 10.8006C7.30008 14.3013 5.33342 19.0493 5.33342 24C5.33342 28.9507 7.30008 33.6986 10.8008 37.1993C14.3014 40.7 19.0494 42.6666 24.0001 42.6666ZM20.7847 15.635L32.1691 23.223C32.2971 23.3082 32.4021 23.4237 32.4747 23.5592C32.5473 23.6948 32.5853 23.8462 32.5853 24C32.5853 24.1537 32.5473 24.3051 32.4747 24.4407C32.4021 24.5763 32.2971 24.6918 32.1691 24.777L20.7824 32.365C20.642 32.458 20.479 32.5114 20.3108 32.5193C20.1425 32.5273 19.9753 32.4895 19.8267 32.4101C19.6782 32.3307 19.5539 32.2126 19.467 32.0682C19.3802 31.9239 19.334 31.7587 19.3334 31.5903V16.4096C19.3337 16.2408 19.3798 16.0752 19.4668 15.9305C19.5538 15.7859 19.6783 15.6675 19.8273 15.588C19.9762 15.5085 20.1439 15.4709 20.3125 15.4791C20.4811 15.4874 20.6443 15.5413 20.7847 15.635Z"
-                            fill="white" />
-                    </svg>
-                    Watch Video</button>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="assets/Logo.png" alt="logo" /></div>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">SPEAKERS</a>
+                <a href="#">SCHEDULE</a>
+                <a href="#">CONTACT US</a>
+            </nav>
+            <button class="btn1">GET TICKETS</button>
+        </div>
+        <div class="hero-content">
+            <h1>
+                The Best Experience Of <br />
+                <span class="red">Music</span> In 2021
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                vitae ligula placerat, eleifend ex non, vehicula libero. Suspendisse
+                eget tellus lectus.
+            </p>
+
+            <div class="buttons">
+                <button class="btn2">Get Started</button>
+                <div class="watch">
+                    <button class="btn3">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24.0001 47.3333C11.1131 47.3333 0.666748 36.887 0.666748 24C0.666748 11.113 11.1131 0.666626 24.0001 0.666626C36.8871 0.666626 47.3334 11.113 47.3334 24C47.3334 36.887 36.8871 47.3333 24.0001 47.3333ZM24.0001 42.6666C28.9508 42.6666 33.6987 40.7 37.1994 37.1993C40.7001 33.6986 42.6668 28.9507 42.6668 24C42.6668 19.0493 40.7001 14.3013 37.1994 10.8006C33.6987 7.29995 28.9508 5.33329 24.0001 5.33329C19.0494 5.33329 14.3014 7.29995 10.8008 10.8006C7.30008 14.3013 5.33342 19.0493 5.33342 24C5.33342 28.9507 7.30008 33.6986 10.8008 37.1993C14.3014 40.7 19.0494 42.6666 24.0001 42.6666ZM20.7847 15.635L32.1691 23.223C32.2971 23.3082 32.4021 23.4237 32.4747 23.5592C32.5473 23.6948 32.5853 23.8462 32.5853 24C32.5853 24.1537 32.5473 24.3051 32.4747 24.4407C32.4021 24.5763 32.2971 24.6918 32.1691 24.777L20.7824 32.365C20.642 32.458 20.479 32.5114 20.3108 32.5193C20.1425 32.5273 19.9753 32.4895 19.8267 32.4101C19.6782 32.3307 19.5539 32.2126 19.467 32.0682C19.3802 31.9239 19.334 31.7587 19.3334 31.5903V16.4096C19.3337 16.2408 19.3798 16.0752 19.4668 15.9305C19.5538 15.7859 19.6783 15.6675 19.8273 15.588C19.9762 15.5085 20.1439 15.4709 20.3125 15.4791C20.4811 15.4874 20.6443 15.5413 20.7847 15.635Z"
+                                fill="white" />
+                        </svg>
+                        Watch Video
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
-
+    </header>
     <!-- Categories -->
-    <div class="main">
-        <h2>Explore By Category</h2>
-        <div class="boxes">
-            <div class="box-1  box">
+    <div class="categories-section">
+        <div class="container">
+            <h2>Explore By Category</h2>
+        </div>
+        <div class="boxes-section">
+            <div class="categories-box">
                 <svg width="40" height="28" viewBox="0 0 40 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M36.4844 0.526794H3.51562C1.57711 0.526794 0 2.1039 0 4.04242V23.9575C0 25.896 1.57711 27.4731 3.51562 27.4731H36.4844C38.4229 27.4731 40 25.896 40 23.9575V4.04242C40 2.1039 38.4229 0.526794 36.4844 0.526794ZM13.4672 22.9462C8.53422 22.9462 4.52094 18.933 4.52094 14C4.52094 9.06703 8.53422 5.05375 13.4672 5.05375C18.4002 5.05375 22.4134 9.06703 22.4134 14C22.4134 18.933 18.4002 22.9462 13.4672 22.9462ZM26.9423 10.6665V20.6208C26.9423 21.268 26.4176 21.7927 25.7704 21.7927C25.1232 21.7927 24.5985 21.268 24.5985 20.6208V10.6665C24.1775 10.4887 23.882 10.0721 23.882 9.5864C23.882 9.1007 24.1775 8.68406 24.5985 8.50633V7.63812C24.5985 6.99094 25.1232 6.46625 25.7704 6.46625C26.4176 6.46625 26.9423 6.99094 26.9423 7.63812V8.50633C27.3634 8.68406 27.6589 9.1007 27.6589 9.5864C27.6589 10.0721 27.3634 10.4887 26.9423 10.6665ZM31.197 19.1813V20.6207C31.197 21.2679 30.6723 21.7926 30.0252 21.7926C29.378 21.7926 28.8533 21.2679 28.8533 20.6207V19.1813C28.4323 19.0037 28.1366 18.587 28.1366 18.1012C28.1366 17.6155 28.4322 17.1988 28.8533 17.0212V7.63812C28.8533 6.99094 29.378 6.46625 30.0252 6.46625C30.6723 6.46625 31.197 6.99094 31.197 7.63812V17.0212C31.6181 17.199 31.9137 17.6156 31.9137 18.1013C31.9137 18.587 31.6181 19.0037 31.197 19.1813ZM35.4518 10.6665V20.6208C35.4518 21.268 34.9271 21.7927 34.2799 21.7927C33.6327 21.7927 33.108 21.268 33.108 20.6208V10.6665C32.687 10.4888 32.3914 10.0721 32.3914 9.5864C32.3914 9.1007 32.687 8.68398 33.108 8.50633V7.63812C33.108 6.99094 33.6327 6.46625 34.2799 6.46625C34.9271 6.46625 35.4518 6.99094 35.4518 7.63812V8.50633C35.8729 8.68406 36.1684 9.1007 36.1684 9.5864C36.1684 10.0721 35.8729 10.4887 35.4518 10.6665Z"
                         fill="#DB841D" />
                 </svg>
-                <div class="hero">
+                <div class="categories-content">
                     <h3>Pop</h3>
-                    <p>Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae</p>
+                    <p>
+                        Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                        vitae
+                    </p>
                 </div>
             </div>
-            <div class="box-2 box ">
+            <div class="categories-box">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M5.85938 7.10938H1.17188C0.524141 7.10938 0 7.63352 0 8.28125C0 8.92898 0.524141 9.45312 1.17188 9.45312H2.34375V14.1406H4.6875V9.45312H5.85938C6.50711 9.45312 7.03125 8.92898 7.03125 8.28125C7.03125 7.63352 6.50711 7.10938 5.85938 7.10938Z"
@@ -74,24 +88,30 @@
                         fill="#FC5252" />
                 </svg>
 
-                <div class="hero">
+                <div class="categories-content">
                     <h3>Folk</h3>
-                    <p>Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae</p>
+                    <p>
+                        Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                        vitae
+                    </p>
                 </div>
             </div>
-            <div class="box-3  box">
+            <div class="categories-box">
                 <svg width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M37.6557 21.1723H25.8591V24.5917C25.8591 26.5829 24.241 28.2034 22.2532 28.2034C20.5401 28.2034 19.0535 26.9857 18.7216 25.3333L14.9464 5.08444C14.2531 1.61578 10.7826 -0.731329 7.11657 0.208279C4.3529 0.918981 2.42236 3.52359 2.42236 6.54358V11.7977H1.17236C0.524628 11.7977 0.000488281 12.3218 0.000488281 12.9696C0.000488281 13.6173 0.524628 14.1415 1.17236 14.1415H3.59415H5.93782C6.58501 14.1415 7.10969 13.6168 7.10969 12.9696V8.20412C7.10969 7.55678 7.63438 7.03225 8.28157 7.03225C8.92875 7.03225 9.45344 7.55678 9.45344 8.20412V14.1415V16.4851H8.28157C7.63383 16.4851 7.10969 17.0093 7.10969 17.657C7.10969 18.3047 7.63383 18.8289 8.28157 18.8289H9.45344V21.1725H8.28157C7.63383 21.1725 7.10969 21.6967 7.10969 22.3444C7.10969 22.9921 7.63383 23.5163 8.28157 23.5163H9.45344V24.6882V25.86H8.28157C7.63383 25.86 7.10969 26.3842 7.10969 27.0319C7.10969 27.6796 7.63383 28.2038 8.28157 28.2038H9.6643C10.7823 34.8519 16.5496 40.0003 23.5155 40.0003H23.5361L23.947 39.9934C31.4632 39.7691 37.6558 33.1223 37.6558 25.2707L37.6557 21.1723Z"
                         fill="white" />
                 </svg>
-                <div class="hero">
+                <div class="categories-content">
                     <h3>ınstrumental</h3>
-                    <p>Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae</p>
+                    <p>
+                        Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                        vitae
+                    </p>
                 </div>
             </div>
 
-            <div class="box-4  box">
+            <div class="categories-box">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_893_972)">
                         <path d="M23.8838 12.7817L25.5209 11.1446L28.9022 14.5259L27.2651 16.163L23.8838 12.7817Z"
@@ -111,41 +131,50 @@
                         </clipPath>
                     </defs>
                 </svg>
-                <div class="hero">
+                <div class="categories-content">
                     <h3>Rock</h3>
-                    <p>Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae</p>
+                    <p>
+                        Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                        vitae
+                    </p>
                 </div>
             </div>
-            <div class="box-5 box">
+            <div class="categories-box">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M39.4887 12.2983L27.7019 0.51132C27.2206 0.0299142 26.503 -0.127117 25.8642 0.108899C25.2256 0.34507 24.7828 0.931476 24.7307 1.61038L23.7979 13.7365L17.7893 19.7451L16.0754 18.0311C15.3946 17.3503 14.2906 17.3503 13.6097 18.0311C12.9289 18.7119 12.9289 19.8158 13.6097 20.4967L15.3236 22.2105L11.8959 25.6383L10.1821 23.9245C9.50147 23.2435 8.39748 23.2437 7.71647 23.9245C7.03561 24.6053 7.03561 25.7091 7.71647 26.3901L9.43029 28.1041L3.21624 34.3182L2.97578 34.0777C2.295 33.3969 1.19101 33.3969 0.510155 34.0777C-0.170703 34.7585 -0.170703 35.8625 0.510155 36.5433L1.98351 38.0167L3.45687 39.49C3.79734 39.8304 4.24351 40.0006 4.6896 40.0006C5.13585 40.0006 5.58202 39.8303 5.92233 39.49C6.60319 38.8091 6.60319 37.7052 5.92233 37.0243L5.68186 36.7839L9.31569 33.15C9.60834 33.9215 10.0622 34.6294 10.6632 35.2304C11.7796 36.3466 13.264 36.9615 14.8427 36.9615C16.4215 36.9615 17.9057 36.3467 19.022 35.2304L24.9158 29.3368C27.2202 27.0322 27.2202 23.2822 24.9156 20.9776C24.3146 20.3769 23.6066 19.9231 22.8353 19.6304L26.2635 16.2021L38.3896 15.2694C39.0685 15.2172 39.6549 14.7745 39.8911 14.1359C40.1273 13.4972 39.9702 12.7797 39.4887 12.2983ZM22.4502 26.8712L16.5564 32.7646C16.0986 33.2224 15.49 33.4745 14.8428 33.4745C14.1954 33.4745 13.5865 33.2224 13.1288 32.7646C12.6711 32.3068 12.419 31.6983 12.419 31.0508C12.419 30.4034 12.6711 29.7947 13.1288 29.337L19.0245 23.4414C19.4821 22.9851 20.0897 22.7336 20.7361 22.7336C21.3836 22.7336 21.9926 22.9858 22.4503 23.4433C23.395 24.3885 23.395 25.9262 22.4502 26.8712Z"
                         fill="#84C4FF" />
                 </svg>
-                <div class="hero">
+                <div class="categories-content">
                     <h3>Jazz</h3>
-                    <p>Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae</p>
+                    <p>
+                        Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                        vitae
+                    </p>
                 </div>
             </div>
         </div>
+    </div>
 
-
-        <!--1 -->
-
+    <!--1 -->
+    <div class="about-wrapper">
         <div class="container">
-            <img class="image-container" src="assets/Images.png">
-            <div class="text-content">
+            <div class="wrapper-img">
+                <img src="assets/Images.png" />
+            </div>
+            <div class="about-content">
                 <h2>About Musik</h2>
-                <p>Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales, tincidunt nunc
-                    non,
-                    maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque
-                    suscipit
-                    luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis. In
-                    quis
-                    massa
-                    risus</p>
-                <button>Learn More <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                <p>
+                    Fusce justo mi, vehicula id arcu et, dapibus tristique lectus.
+                    Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a
+                    augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus
+                    non neque suscipit luctus. Mauris et erat id ipsum condimentum
+                    cursus. Sed tempus enim non massa mattis iaculis. In quis massa
+                    risus
+                </p>
+                <button class="blue-btn">
+                    Learn More
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
                             fill="white" />
@@ -154,27 +183,206 @@
             </div>
         </div>
     </div>
+
     <!-- 2 -->
-    <div class="container">
-        <div class="text-content">
-            <h2>Singers</h2>
-            <p>Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales, tincidunt nunc
-                non,
-                maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque
-                suscipit
-                luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis. In
-                quis
-                massa
-                risus</p>
-            <button>View All Singers <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
-                        fill="white" />
-                </svg>
-            </button>
+    <div class="singer-section">
+        <div class="container">
+            <div class="singer-about">
+                <h2>Singers</h2>
+                <p>
+                    Fusce justo mi, vehicula id arcu et, dapibus tristique lectus.
+                    Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a
+                    augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus
+                    non neque suscipit luctus. Mauris et erat id ipsum condimentum
+                    cursus. Sed tempus enim non massa mattis iaculis. In quis massa
+                    risus
+                </p>
+                <button class="blue-btn">
+                    View All Singers
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.172 6.99998L6.808 1.63598L8.222 0.221985L16 7.99998L8.222 15.778L6.808 14.364L12.172 8.99998H0V6.99998H12.172Z"
+                            fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <div class="singer-img">
+                <img src="assets/Images (1).png" />
+            </div>
         </div>
-        <img class="image-container" src="assets/Images (1).png">
+    </div>
+
+    <!--tier-->
+    <div class="tier-wrapper">
+        <div class="container">
+            <div class="tier-title">
+                <h2>Choose a Tier that’s right for you</h2>
+            </div>
+            <!-- 1 -->
+            <div class="tier-boxes">
+                <div class="tier-box-1">
+                    <div class="section-price">
+                        <h3>Basic</h3>
+                        <h1>$100</h1>
+                    </div>
+                    <div>
+                        <p>1 Seat Available</p>
+                        <p>Access to Wifi Router</p>
+                        <p>Free Food & Coffee</p>
+                    </div>
+                    <button>Get Tickets</button>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="tier-boxes">
+                <div class="tier-box-2">
+                    <div class="section-price">
+                        <h3>Basic</h3>
+                        <h1>$100</h1>
+                    </div>
+                    <p>1 Seat Available</p>
+                    <p>Access to Wifi Router</p>
+                    <p>Free Food & Coffee</p>
+                    <button>Get Tickets</button>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="tier-boxes">
+                <div class="tier-box-3">
+                    <div class="section-price">
+                        <h3>Basic</h3>
+                        <h1>$100</h1>
+                    </div>
+                    <p>2 Seat Available</p>
+                    <p>Access to Wifi Router</p>
+                    <p>Free Food & Coffee</p>
+                    <button>Get Tickets</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- sponsors --->
+
+    <div class="sponsors-wrapper">
+        <div class="container">
+            <h2>Our Sponsors</h2>
+            <div>
+                <img src="assets/Logos.png" />
+            </div>
+            <button>Become a Sponsor</button>
+        </div>
+    </div>
+
+    <!-- Shots -->
+
+    <div class="shots-wrapper">
+        <h2>See our Best Shots</h2>
+        <!-- 1 -->
+        <div class="section-img">
+            <img src="assets/Img (4).png" />
+            <svg width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_893_469)">
+                    <circle cx="68" cy="58" r="28" fill="white" />
+                    <path
+                        d="M66.5148 58.1557L73.4448 65.0857L71.4652 67.0653L62.5556 58.1557L71.4652 49.2461L73.4448 51.2257L66.5148 58.1557Z"
+                        fill="#222222" />
+                </g>
+                <defs>
+                    <filter id="filter0_d_893_469" x="0" y="0" width="136" height="136" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="10" />
+                        <feGaussianBlur stdDeviation="20" />
+                        <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0.15 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_893_469" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_893_469" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+
+            <div class="likes-comments">
+                <img src="assets/Likes & Comments.png" />
+            </div>
+            <p>Lorem Ipsum Amet</p>
+            <p>
+                #music #concert #conference #london #event #artist #dj #soundtrack
+                #dance
+            </p>
+        </div>
+        <!-- 2 -->
+        <div class="section-img">
+            <img src="assets/Img(5).png" />
+            <div class="likes-comments">
+                <img src="assets/Likes & Comments.png" />
+            </div>
+            <p>Lorem Ipsum Amet</p>
+            <p>
+                #music #concert #conference #london #event #artist #dj #soundtrack
+                #dance
+            </p>
+        </div>
+        <!-- 3 -->
+        <div class="section-img">
+            <img src="assets/Img (1).png" />
+            <div class="likes-comments">
+                <img src="assets/Likes & Comments.png" />
+            </div>
+            <p>Lorem Ipsum Amet</p>
+            <p>
+                #music #concert #conference #london #event #artist #dj #soundtrack
+                #dance
+            </p>
+        </div>
+        <!-- 4 -->
+        <div class="section-img">
+            <img src="assets/Img (2).png" />
+            <div class="likes-comments">
+                <img src="assets/Likes & Comments.png" />
+            </div>
+            <p>Lorem Ipsum Amet</p>
+            <p>
+                #music #concert #conference #london #event #artist #dj #soundtrack
+                #dance
+            </p>
+        </div>
+        <!-- 5 -->
+        <div class="section-img">
+            <img src="assets/Img (3).png" />
+            <svg width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_893_466)">
+                    <circle cx="68" cy="58" r="28" fill="white" />
+                    <path
+                        d="M69.4862 58.1553L62.5562 51.2253L64.5358 49.2457L73.4454 58.1553L64.5358 67.0649L62.5562 65.0853L69.4862 58.1553Z"
+                        fill="#222222" />
+                </g>
+                <defs>
+                    <filter id="filter0_d_893_466" x="0" y="0" width="136" height="136" filterUnits="userSpaceOnUse"
+                        color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                            result="hardAlpha" />
+                        <feOffset dy="10" />
+                        <feGaussianBlur stdDeviation="20" />
+                        <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0 0.133333 0 0 0 0.15 0" />
+                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_893_466" />
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_893_466" result="shape" />
+                    </filter>
+                </defs>
+            </svg>
+            <div class="likes-comments">
+                <img src="assets/Likes & Comments.png" />
+            </div>
+            <p>Lorem Ipsum Amet</p>
+            <p>
+                #music #concert #conference #london #event #artist #dj #soundtrack
+                #dance
+            </p>
+        </div>
     </div>
 </body>
 
